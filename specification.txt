@@ -1,0 +1,47 @@
+Todo For This Week: 
+ 
+Create a way to edit and store each of the ingredients with a quantity.
+
+///// Sassy Potions Blog Specification:
+
+GET / [DONE]
+	see index.html
+
+GET /api/potions [DONE]
+	JSON
+
+POST /api/potion [DONE]
+	JSON
+
+POST /api/comment [TODO]
+	JSON
+
+POST /api/potion/edit [DONE]
+	JSON
+
+///// Mongo Schemas:
+
+Potion
+	sass: Number
+	ingredients: [String]
+	crystals: Boolean
+	name: String
+	// _id: ObjectId
+	comments: [Comment] // subdocument
+
+Comment
+	author: String
+	content: String
+
+
+///// Erty's suggestion for displaying the ingredients (but not the only way!):
+	<div>
+		<input type="text" class="potion-ingredient">
+		<input type="number" class="potion-ingredient-quantity">
+		<button> delete </button>
+	</div>
+	<button> Add Ingredient </button>
+
+
+// to do: finish 3 new functions and connect to back end
+// comments

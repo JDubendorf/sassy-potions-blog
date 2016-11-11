@@ -1,0 +1,13 @@
+// enter new potion name, sass #, and ingredients
+	function send new potion, api/potion, split ingredients on comma, assign random crystals, gpa determined with sass #
+
+// newPotion.save, then res.send the new potion
+	then createSassyDiv with res, set up event listener on handlEditClick
+
+// edit works with findOneAndUpdate
+
+//get all potions work with SassyPotion.find, .sort, .exec
+
+
+
+
